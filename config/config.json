@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "freedb_bober",
+    "password": "9ddTq6UvM@v$T!m",
+    "database": "freedb_detail_cars",
+    "host": "sql.freedb.tech",
+    "dialect": "mysql",
+    "port": 3306
+  },
+  "test": {
+    "username": "freedb_bober",
+    "password": "9ddTq6UvM@v$T!m",
+    "database": "freedb_detail_cars",
+    "host": "sql.freedb.tech",
+    "dialect": "mysql",
+    "port": 3306
+  },
+  "production": {
+    "username": "freedb_bober",
+    "password": "9ddTq6UvM@v$T!m",
+    "database": "freedb_detail_cars",
+    "host": "sql.freedb.tech",
+    "dialect": "mysql",
+    "port": 3306
+  }
+}
