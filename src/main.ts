@@ -21,7 +21,7 @@ async function bootstrap() {
     credentials: true,
     origin: [
       'http://localhost:3001',
-      'http://shop-fullstack-client.vercel.app',
+      'https://shop-fullstack-client.vercel.app',
     ],
   });
 
