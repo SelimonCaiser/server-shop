@@ -19,10 +19,7 @@ async function bootstrap() {
 
   app.enableCors({
     credentials: true,
-    origin: [
-      'http://localhost:3001',
-      'https://shop-client-my-shop.onrender.com',
-    ],
+    origin: ['http://localhost:3001', 'https://lifeperfect.vercel.app'],
   });
 
   const config = new DocumentBuilder()
