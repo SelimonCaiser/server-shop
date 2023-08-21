@@ -4,6 +4,7 @@ import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
 import { DocumentBuilder } from '@nestjs/swagger';
 import { SwaggerModule } from '@nestjs/swagger/dist';
+import axios from 'axios';
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
@@ -16,7 +17,7 @@ async function bootstrap() {
   );
   app.use(passport.initialize());
   app.use(passport.session());
-
+  axios.defaults.withCredentials = true;
   app.enableCors({
     credentials: true,
     origin: [
