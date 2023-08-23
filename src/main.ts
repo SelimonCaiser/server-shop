@@ -22,7 +22,7 @@ async function bootstrap() {
     credentials: true,
     origin: [
       'http://localhost:3001',
-      'https://lifeperfect.vercel.app',
+      'https://shop-fullstack-client.vercel.app',
     ],
   });
 
