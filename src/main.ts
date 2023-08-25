@@ -22,7 +22,7 @@ async function bootstrap() {
     credentials: true,
     origin: [
       'http://localhost:3001',
-      'https://eaterphantom-vula3y.stormkit.dev',
+      'https://shop-fullstack-client.vercel.app',
     ],
   });
 
